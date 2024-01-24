@@ -23,4 +23,27 @@ TARGET_PERCENTAGE = Target Percentage that trigger to exit a trade.
 Results<br />
 Average profit per trade, number of total trades and winning trades are displayed for each symbol on std output. 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone 
+```
+
+Go to the project directory and 
+Build the code (I'm using -std=c++11)
+```bash
+  make
+```
+Run the built file
+```bash
+  make run
+```
+Clean the output file
+```bash
+  make clean
+```
+
+
 
